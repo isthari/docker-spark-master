@@ -1,5 +1,6 @@
-IP=$(hostname -i)                                                                                                                         
-/root/spark/bin/spark-class org.apache.spark.deploy.master.Master -ip $IP
+IP=$(hostname -i)                                                   
+echo "Using address $IP"                                                                      
+/root/spark/bin/spark-class org.apache.spark.deploy.master.Master -h $IP
 
 #/root/spark/sbin/start-master.sh -i 0.0.0.0 
 #tail -f /root/spark/logs/*master.out
