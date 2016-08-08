@@ -1,5 +1,5 @@
                                                                                                                           
-/root/spark/bin/spark-class org.apache.spark.deploy.master.Master 
+/root/spark/bin/spark-class org.apache.spark.deploy.master.Master -i 0.0.0.0 
 
 #/root/spark/sbin/start-master.sh -i 0.0.0.0 
 #tail -f /root/spark/logs/*master.out
