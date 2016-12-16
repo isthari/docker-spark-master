@@ -1,4 +1,4 @@
-FROM isthari/spark-base:1.6.2
+FROM isthari/spark-base:2.0.1
 
 ENV JAVA_HOME /usr
 
